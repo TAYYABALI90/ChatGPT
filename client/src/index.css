@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
+
+/* Styling The Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+/* Styling The Scroll Bar */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-variation-settings: normal;
+    line-height: 1.5;
+    tab-size: 4;
+}
+
+body {
+    background: #40414F;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
